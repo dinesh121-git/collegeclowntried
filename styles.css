@@ -1,0 +1,200 @@
+#thank {
+    color: black;
+    font-size: medium;
+    animation-name: exam;
+    animation-duration: 4s;
+}
+.clickpp{
+    text-align: center;
+    
+}
+@keyframes exam{
+    from{font-size: medium;}
+    to {font-size: larger;}
+}
+body {
+    /* background-image: url("https://img.freepik.com/premium-vector/back-school-pattern-background-set-different-drawings-related-school-blue-color_153454-35.jpg"); */
+    background-size: cover;
+    background-position: center;
+    filter: contrast(60%);
+    color: black;
+    margin: 0px;
+    font-style: italic;
+    background-color:#f5f5f5;
+}
+H1{
+    COLOR:RED;
+
+}
+h1 img{
+      width:30px;
+      height: 30px;
+}
+h3 {
+    text-decoration: underline;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    color:white;
+}
+
+.info {
+    width: 70%;
+    font-size:60px;
+}
+
+.img {
+    width: 350px;
+    height: auto;
+    position: relative;
+}
+.sarva {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between the two sections */
+    padding: 20px;
+}
+
+.placement {
+    width: 48%; /* Adjust the width as needed */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border:1PX SOLID red;
+    background-color: rgb(235, 41, 41);
+    color:white;
+}
+
+.course-details {
+    width: 48%; /* Adjust the width as needed */
+    color:white;
+    padding: 20px;
+    border-radius: 8px;
+    border:1PX SOLID rgb(235, 41, 41);
+    background-color: rgb(235, 41, 41);
+}
+
+.placement {
+    text-align: center; /* Centers the heading */
+}
+
+.placement h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.placement-companies {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    justify-content: center;
+    gap: 30px;
+}
+
+.placement-companies li {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.placement-companies li img {
+    display: block;
+    width: 60px; /* Default small size */
+    height: 60px;
+    margin: 10px auto 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect - Makes the GIF bigger */
+.placement-companies li:hover img {
+    transform: scale(1.5); /* Enlarge on hover */
+}
+
+
+tr:hover {
+    background-color: rgb(118, 155, 192);
+}
+
+table {
+    border: 2px solid white;
+    width: 100%; /* Make the table take full width */
+}
+
+.tab th, .tab td {
+    border: 2px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+
+.navbar {
+    width: 100%;
+    padding:0;
+    border: 2px solid;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 0;
+    transition: 1.0s ease-in-out;
+}
+
+.navbar ul li a:hover {
+    background-color:BLUE;
+    color:BLACK;
+    border-radius: 5px;
+    padding: 12px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(176, 112, 112);
+    margin: 5px auto;
+}
+.clgimg {
+    display: flex;
+    justify-content: space-between; /* Distributes images evenly */
+    align-items: center; /* Aligns images vertically */
+    gap: 10px; /* Adds spacing between images */
+}
+
+.clgimg img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.clgimg img:hover {
+    transform: translateY(-10px); /* Moves image up by 10px */
+}
